@@ -21,6 +21,7 @@
 		5D74EF28187DFF7900216787 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D74EF0A187DFF7900216787 /* UIKit.framework */; };
 		5D74EF30187DFF7900216787 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D74EF2E187DFF7900216787 /* InfoPlist.strings */; };
 		5D74EF32187DFF7900216787 /* TempGitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D74EF31187DFF7900216787 /* TempGitTestTests.m */; };
+		5DFFFBCF187E73F900C50E10 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFFBCE187E73F900C50E10 /* DataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5D74EF2D187DFF7900216787 /* TempGitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TempGitTestTests-Info.plist"; sourceTree = "<group>"; };
 		5D74EF2F187DFF7900216787 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5D74EF31187DFF7900216787 /* TempGitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempGitTestTests.m; sourceTree = "<group>"; };
+		5DFFFBCD187E73F900C50E10 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		5DFFFBCE187E73F900C50E10 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		5D74EF0C187DFF7900216787 /* TempGitTest */ = {
 			isa = PBXGroup;
 			children = (
+				5DFFFBCD187E73F900C50E10 /* DataModel.h */,
+				5DFFFBCE187E73F900C50E10 /* DataModel.m */,
 				5D74EF15187DFF7900216787 /* AppDelegate.h */,
 				5D74EF16187DFF7900216787 /* AppDelegate.m */,
 				5D74EF18187DFF7900216787 /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D74EF1D187DFF7900216787 /* ViewController.m in Sources */,
+				5DFFFBCF187E73F900C50E10 /* DataModel.m in Sources */,
 				5D74EF17187DFF7900216787 /* AppDelegate.m in Sources */,
 				5D74EF13187DFF7900216787 /* main.m in Sources */,
 			);
@@ -460,6 +466,7 @@
 				5D74EF37187DFF7900216787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D74EF38187DFF7900216787 /* Build configuration list for PBXNativeTarget "TempGitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				5D74EF3A187DFF7900216787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
