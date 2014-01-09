@@ -8,6 +8,6 @@
 
 #import "DataModel.h"
 
-@implementation DataModel
+@implementation DataModel // the model
 
 @end
